@@ -1,0 +1,15 @@
+<import src="../common/foot.wxml" />
+<view class="container">
+  <view class='content'>
+    <view class="item">
+      <text class="usermotto" bindtap="getUserInfo1">房间一</text>
+      <text class="usermotto" bindtap="getUserInfo2">房间二</text>
+    </view>
+      <view class="item">
+      <text class="usermotto" bindtap="getUserInfo3">房间三</text>
+      <text class="usermotto" bindtap="getUserInfo4">房间四</text>
+    </view>
+  </view>
+
+   <template is="foot" />
+</view>
