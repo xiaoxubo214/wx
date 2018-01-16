@@ -54,14 +54,8 @@ Page({
   getUserInfo1: function (e) {
     console.log(e)
     wx.navigateTo({
+      url: '../list/list?title=' + 'navi',
     })
-  },
-  getUserInfo1: function (e) {
-    console.log(e)
-    wx.navigateTo({
-      url: '../detail/detail?title=' + 'navi',
-    })
-    
   },
   getUserInfo2: function (e) {
     console.log(e)

@@ -11,5 +11,5 @@
     </view>
   </view>
 
-   <template is="foot" />
+   <template is="foot"/>
 </view>

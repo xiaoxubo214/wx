@@ -14,6 +14,7 @@ Page({
     wx.navigateTo({
       url: '../logs/logs'
     })
+    
   },
   onLoad: function () {
     if (app.globalData.userInfo) {

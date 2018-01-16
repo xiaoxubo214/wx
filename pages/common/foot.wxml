@@ -1,0 +1,3 @@
+<template name="foot">
+    <image class="icon-foot" src="../image/icon_foot.png"  bindtap="gotoScan" ></image>
+</template>
