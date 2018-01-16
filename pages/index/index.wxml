@@ -1,15 +1,14 @@
-<import src="../common/foot.wxml" />
 <view class="container">
   <view class='content'>
     <view class="item">
-      <text class="usermotto" bindtap="getUserInfo1">房间一</text>
-      <text class="usermotto" bindtap="getUserInfo2">房间二</text>
+        <view class="detailleft" bindtap="gotoList" data-id='1'>房间一</view>
+        <view class="detaillright" bindtap="gotoList" data-id='2'>房间二</view>
     </view>
       <view class="item">
-      <text class="usermotto" bindtap="getUserInfo3">房间三</text>
-      <text class="usermotto" bindtap="getUserInfo4">房间四</text>
+        <view class="detailleft" bindtap="gotoList" data-id='3'>房间三</view>
+        <view class="detaillright" bindtap="gotoList" data-id='4'>房间四</view>
     </view>
   </view>
 
-   <template is="foot"/>
+    <image style=" width: 50px;height: 50px;margin: 20rpx;" src="../image/scan.png" bindtap="gotoScan"></image>
 </view>

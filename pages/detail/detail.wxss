@@ -1,17 +1,16 @@
 /**app.wxss**/
 .lll {
     display: flex; 
-   flex-direction: row;
+   flex-direction: column;
    align-items: stretch;
-   height: 80px;
-   padding: 20px
+   padding: 20px;
+   flex-wrap: row
 } 
 
 .eee {
    display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 80px;
 } 
 
 .container1 {
@@ -21,7 +20,7 @@
 .k1 {
   width: 60px;
   height: 60px;
-  background-color: #eeeeee;
+  background-color: black;
   margin: 20rpx;
 } 
 

@@ -3,7 +3,6 @@
     display: flex; 
    flex-direction: row;
    align-items: stretch;
-   height: 150rpx;
    padding: 20rpx
 } 
 
@@ -11,7 +10,6 @@
    display: flex;
   flex-direction: column;
   align-items: flex-start;
-  height: 150rpx;
 } 
 
 .container1 {
@@ -21,7 +19,7 @@
 .k1 {
   width: 60rpx;
   height: 60rpx;
-  background-color: #eeeeee;
+  background-color: black;
   margin: 20rpx;
 } 
 
