@@ -1,4 +1,11 @@
 <view class="container">
+  <swiper class="banner" indicator-dots="true" autoplay="true"  interval="5000" indicator-active-color="#2089DC" circular="true"        bindchange="EventHandle" >
+    <block wx:for="{{bannerUrl}}">
+      <swiper-item>
+      <image  src="{{item}}" style="width:100%;"></image>
+      </swiper-item>
+    </block>
+  </swiper>
   <view class='content'>
     <view class="item">
         <view class="detailleft" bindtap="gotoList" data-id='1'>房间一</view>
@@ -9,6 +16,7 @@
         <view class="detaillright" bindtap="gotoList" data-id='4'>房间四</view>
     </view>
   </view>
-
-    <image style=" width: 50px;height: 50px;margin: 20rpx;" src="../image/scan.png" bindtap="gotoScan"></image>
+  <view class='scan'>
+    <image class='scan' src="../image/scan.png" bindtap="gotoScan"></image>
+  </view>
 </view>

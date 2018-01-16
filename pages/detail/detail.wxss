@@ -17,23 +17,22 @@
   
   flex-direction: column;
 } 
-.k1 {
-  width: 60px;
-  height: 60px;
-  background-color: black;
-  margin: 20rpx;
-} 
-
-tips1{
-   height: 60px;
-
+.icon_image{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  margin-top: 20rpx;
+  height: 1500rpx;
 }
-
-r1{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   align-self: center;
-   justify-content: center;
+.icon_desc{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  margin-top: 20rpx;
+  height: 680rpx;
+  font-size:14px;
 }
-

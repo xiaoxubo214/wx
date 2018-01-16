@@ -4,6 +4,7 @@ const app = getApp()
 
 Page({
   data: {
+    bannerUrl: ['../image/banner1.png', '../image/banner2.png', '../image/banner3.png', '../image/banner4.png']  
   },
   //事件处理函数
   bindViewTap: function() {
